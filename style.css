@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    overflow: hidden;
+  }
+  html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+body{
+    background-color: #4388c9;
+}
+svg path{
+    fill: #88ce91;
+    stroke: rgb(0, 0, 0);
+    stroke-width: .25;
+}
+svg path:hover{
+    fill: #3f7a3f;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+nav{
+  border-bottom: 2px solid azure;
+  width: 30%;
+  padding: 1.2em, 0;
+  margin-left: calc(10%/6);
+  font-family: 'Raleway', sans-serif;
+  color: azure;
+  font-size: 2em;
+  font-weight: bold;
+  
+}
+
+a{
+  color: azure;
+  text-decoration:none;
+  }
+  
+a.visited{
+  color:azure;
+}
+
+.map{
+  padding-top: 2.0em;
+}
+
+#AT, #BE, #CH, #CZ, #DE, #UK, #HU, #IE, #IT, #NW, #PL, #NL, #PT, #ES, #FR{
+  fill: rgb(53, 165, 122);
+}
+
+#AT:hover, #BE:hover, #CH:hover, #CZ:hover, #DE:hover, #UK:hover, #HU:hover, #IE:hover, #IT:hover, #NW:hover, #PL:hover, #NL:hover, #PT:hover, #ES:hover, #FR:hover{
+  fill: #3f7a3f;
+  transition: 0.6s;
+  cursor: pointer;
+}
